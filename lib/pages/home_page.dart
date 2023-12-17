@@ -141,7 +141,21 @@ class HomePage extends StatelessWidget {
                 ],
               ),
             ),
-          )
+          ),
+          Container(
+              padding: const EdgeInsets.fromLTRB(15, 40, 15, 20),
+              decoration: const BoxDecoration(
+                image: DecorationImage(
+                  image: Svg(
+                    'assets/img/france.svg',
+                  ),
+                ),
+              ),
+              child: const Text(
+                  '''Lorem Ipsum is simply dummy text of the printing and Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industryLore''',
+                  textAlign: TextAlign.justify,
+                  style: TextStyle(
+                      fontSize: 16, color: Color.fromARGB(255, 167, 167, 162))))
         ],
       ),
     );
